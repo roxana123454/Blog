@@ -1,7 +1,7 @@
 .meniu{
     margin-left: 230px;
     margin-top: 20px;
-    color: black;
+    color: rgb(18, 194, 77);
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline-block;
@@ -9,11 +9,11 @@
 }
 
 .meniu:hover{
-    color: plum;
+    color: rgb(165, 58, 165);
 }
 
 .title{
-    margin-left: 525px;
+    margin-left: 600px;
     width: 800px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 45px;
@@ -22,7 +22,7 @@
 }
 
 .under_title{
-    color: cadetblue;
+    color: rgb(3, 69, 71);
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     margin-top: 30px;
@@ -43,30 +43,30 @@
     margin: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
-    color: black;
+    color: rgb(15, 6, 43);
 }
 
 header{
     position: sticky;
     top:0;
-    background-color: azure;
+    background-color: rgb(156, 158, 185);
 }
 
-subscribe{
+.subscribe{
     padding: 10px;
-    background-color: azure;
+    background-color: rgb(212, 25, 212);
 }
 
-subscribe input{
+.subscribe input{
     width: 200px;
     padding: 5px;
 }
 
-subscribe button{
-    background-color: rgb(5, 255, 255);
+.subscribe button{
+    background-color: rgb(248, 116, 237);
     border:none;
     padding: 5px 10 px;
-    color:black;
+    color:rgb(156, 60, 60);
     font-weight: bold;
 
 }
@@ -83,16 +83,10 @@ subscribe button{
 
 }
 
-.star{
-    color: chocolate;
-    
-}
-
-
-imput[type="text"],select,textarea{    
-    width:100px;
+input[type="text"], select, textarea{
+    width:100%;
     padding:12px;
-    background-origin:1px solid black;
+    border:2px solid rgb(75, 72, 72);
     margin-top: 10px;
     margin-bottom:20px;
 
